@@ -48,7 +48,7 @@ const MainPage = () => {
 
   return (
     <div>
-      <h1>Charts of crypto coins</h1>
+      <h1>Graph for Crypto Coins</h1>
       <p style={{ fontStyle: "italic" }}>Data from coincap.io</p>
       <hr />
       {loading || !allCoins ? (
